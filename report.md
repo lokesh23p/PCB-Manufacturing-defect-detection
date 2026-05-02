@@ -187,6 +187,9 @@ Pipeline:
 IP Webcam → HTTP Request → Image Decode → YOLO Inference → Output
 
 
+<img width="809" height="382" alt="image" src="https://github.com/user-attachments/assets/069dd523-ccab-40a3-a299-ca1a39846173" />
+
+
 
 
 
@@ -203,25 +206,24 @@ IP Webcam → HTTP Request → Image Decode → YOLO Inference → Output
 - If defect detected → bounding boxes shown  
 - If no defect → labeled as "No defect"  
 
-**[Insert Working Demo Images Here]**
-
 ---
 
 ## 15. Results
 
 - Successful detection of PCB defects  
 - Accurate classification of multiple defect types  
-- Output images saved with annotations  
+- Output with annotations  
 
-**[Insert Output Images Here]**
+<img width="4032" height="3024" alt="IMG_1410 JPG" src="https://github.com/user-attachments/assets/77ff2619-6f13-4459-9caf-eb3ce0300f2d" />
+
 
 ---
 
 ## 16. Performance Analysis
 
-- Average inference time: ~1.5 seconds  
+- Average inference time: ~1.1 seconds  
 - Pruning impact:
-  - Minimal latency improvement (~5–10%)  
+  - Minimal latency improvement (~30%)  
 - Bottlenecks:
   - Network latency (IP Webcam)  
   - Fixed delay in processing loop  
@@ -248,9 +250,7 @@ IP Webcam → HTTP Request → Image Decode → YOLO Inference → Output
 ---
 
 ## 19. Future Scope
-
-- Apply INT8 quantization for faster inference  
-- Optimize pipeline for real-time performance  
+  
 - Integrate alert system (buzzer/email)  
 - Use industrial cameras instead of mobile  
 - Scale to full production environments  
