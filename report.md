@@ -63,8 +63,14 @@ Camera → Image Capture → Raspberry Pi → YOLOv8 Model → Output
 
 - Raspberry Pi (Edge computing device)  
 - Mobile phone (used as camera via IP Webcam)  
-- Conveyor system (for real-world simulation)  
-- Lighting setup (for consistent image quality)  
+- Conveyor system (for real-world simulation)
+- 12v Johnson gear motor (for Conveyor system)
+- L298N Motor driver Ic (for Conveyor system)
+- ESP32 Dev module (for Conveyor system)
+- 12v dc adapter power supply (for Conveyor system)
+- 12v dc motor speed controller (for Conveyor system) 
+- Lighting setup (for consistent image quality) (for Conveyor system)<img width="4284" height="5712" alt="IMG_1413 JPG" src="https://github.com/user-attachments/assets/a52fa1e3-0146-4265-89b6-81624f1a2c12" />
+
 
 **[Insert Hardware Setup Image Here]**
 
