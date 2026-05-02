@@ -1,0 +1,38 @@
+**Project Title:**
+Real-Time PCB Defect Detection System using YOLOv8 and Raspberry Pi
+
+**Short Description:**
+This project presents a real-time PCB defect detection system using a YOLOv8 deep learning model deployed on a Raspberry Pi. A conveyor setup simulates industrial conditions, and images are captured using a mobile device via IP Webcam for defect analysis. The system detects multiple PCB defects and provides labeled outputs indicating defect presence or absence.
+
+---
+
+**Team Members:**
+
+1. **Potturi Lakshmi Sri Sai Lokesh** (ID: 26434)
+
+   * Affiliation: B.Tech in Mechanical Engineering
+   * Email: lsslokeshp@gmail.com
+   * Contribution: Developed and trained the YOLOv8 model, performed optimization, and handled deployment on Raspberry Pi.
+
+2. **Kalaiyarasan V** (ID: 26647)
+
+   * Affiliation: BE in Electrical & Electronics Engineering
+   * Email: vkkalaiyarasanvijayan@gmail.com
+   * Contribution: Designed and implemented the conveyor system and handled control using a microcontroller.
+
+3. **Rohit V** (ID: 27007)
+
+   * Affiliation: BE in Industrial engineering and management
+   * Email: rohithv0725@gmail.com
+   * Contribution: Assisted in conveyor system design and mechanical setup.
+
+4. **Naman Thakur** (ID: 26753)
+
+   * Affiliation: B.Tech in Electerical Engineering
+   * Email: thakurnaman602@gmail.com
+   * Contribution: Assisted in model deployment and system integration.
+
+---
+
+**GitHub Project Link:**
+https://github.com/lokesh23p/PCB-Manufacturing-defect-detection
