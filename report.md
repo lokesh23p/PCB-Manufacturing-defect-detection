@@ -1,4 +1,5 @@
 # Real-Time PCB Defect Detection System using YOLOv8 and Raspberry Pi
+## IISc, Edge AI Project
 
 ---
 
