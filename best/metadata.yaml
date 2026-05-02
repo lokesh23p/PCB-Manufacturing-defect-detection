@@ -1,0 +1,28 @@
+description: Ultralytics best model trained on pcb.yaml
+author: Ultralytics
+date: '2026-04-27T13:32:21.363737'
+version: 8.4.41
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 1024
+- 1024
+names:
+  0: missing_hole
+  1: mouse_bite
+  2: open_circuit
+  3: short
+  4: spur
+  5: spurious_copper
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: false
+  dynamic: false
+  nms: false
+channels: 3
+end2end: false
