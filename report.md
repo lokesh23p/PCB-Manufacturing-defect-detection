@@ -69,10 +69,8 @@ Camera → Image Capture → Raspberry Pi → YOLOv8 Model → Output
 - ESP32 Dev module (for Conveyor system)
 - 12v dc adapter power supply (for Conveyor system)
 - 12v dc motor speed controller (for Conveyor system) 
-- Lighting setup (for consistent image quality) (for Conveyor system)<img width="4284" height="5712" alt="IMG_1413 JPG" src="https://github.com/user-attachments/assets/a52fa1e3-0146-4265-89b6-81624f1a2c12" />
-
-
-**[Insert Hardware Setup Image Here]**
+- Lighting setup (for consistent image quality) (for Conveyor system)
+- <img width="4284" height="5712" alt="IMG_1414 JPG" src="https://github.com/user-attachments/assets/de5d45a7-b527-4c4f-9f01-5769fd33929e" />
 
 ---
 
@@ -89,6 +87,7 @@ Camera → Image Capture → Raspberry Pi → YOLOv8 Model → Output
 
 ## 8. Dataset Description
 
+-Dataset downloaded from Kaggle (link:- https://www.kaggle.com/datasets/akhatova/pcb-defects)
 - PCB defect dataset containing annotated images  
 - Annotations provided in XML format (Pascal VOC)  
 - Classes included:
@@ -102,7 +101,8 @@ Camera → Image Capture → Raspberry Pi → YOLOv8 Model → Output
 - Dataset converted from XML to YOLO format  
 - Split into:
   - Training set  
-  - Validation set  
+  - Validation set
+  - Test set  
 
 ---
 
@@ -129,9 +129,7 @@ To improve generalization and handle limited data, the following augmentations w
 - Mosaic augmentation (combining multiple images)  
 - Mixup augmentation (blending images)  
 
-These augmentations increase data diversity without increasing dataset size.
-
-**[Insert Augmented Image Examples Here]**
+These augmentations increase data diversity.
 
 ---
 
@@ -167,12 +165,12 @@ The model achieved strong detection performance across multiple defect classes.
 
 ### Limitations
 
-- No significant reduction in file size  
-- Minimal latency improvement on CPU  
+- No significant reduction in file size (45MB to ~41MB) 
+- latency improvement on CPU
 
 ### Future Need
 
-- Quantization (INT8) required for:
+- Quantization (INT8) required without effecting accuracy:
   - Size reduction  
   - Faster inference  
 
@@ -189,7 +187,8 @@ Pipeline:
 IP Webcam → HTTP Request → Image Decode → YOLO Inference → Output
 
 
-**[Insert Raspberry Pi Setup Image Here]**
+
+
 
 ---
 
