@@ -57,7 +57,6 @@ Camera → Image Capture → Raspberry Pi → YOLOv8 Model → Output
 - The YOLOv8 TFLite model performs inference  
 - Output is displayed and saved  
 
-**[Insert System Architecture Diagram Here]**
 
 ---
 
